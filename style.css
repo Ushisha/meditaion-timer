@@ -93,9 +93,6 @@ video {
 .play {
   position: absolute;
 }
-/* img {
-  background: none;
-} */
 
 .sound-picker button :nth-child(1) {
   background-color: transparent;
