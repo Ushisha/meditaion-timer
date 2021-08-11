@@ -47,7 +47,7 @@
 .beach {
   fill: #d46e2a;
 }
-*/ .sound-picker button svg {
+.sound-picker button svg {
   height: 100%;
 }
 .time-select button :hover {
@@ -77,8 +77,11 @@
 .time-display {
   color: white;
   position: absolute;
-  font-size: 50px;
+  font-size: 40px;
   bottom: 10%;
+}
+.replay {
+  display: none;
 }
 
 video {
@@ -96,4 +99,69 @@ video {
 
 .sound-picker button :nth-child(1) {
   background-color: transparent;
+}
+@media (max-width: 850px) {
+  .time-display {
+    font-size: 30px;
+  }
+  .play {
+    width: 50px;
+    height: 50px;
+  }
+  .player-container svg {
+    height: 30%;
+  }
+  .time-display {
+    bottom: 25%;
+  }
+  .time-select,
+  .sound-picker {
+    height: 50%;
+    justify-content: space-evenly;
+  }
+  .time-select button {
+    width: 40%;
+    height: 10%;
+
+    font-size: 15px;
+    border-radius: 5px;
+
+    border: 1px solid white;
+  }
+}
+
+@media (max-width: 450px) {
+  .time-display {
+    font-size: 25px;
+  }
+  .play {
+    width: 35px;
+    height: 35px;
+  }
+  .player-container svg {
+    height: 25%;
+  }
+  .time-display {
+    bottom: 30%;
+  }
+  .time-select,
+  .sound-picker {
+    height: 40%;
+    justify-content: space-evenly;
+  }
+  .time-select button {
+    width: 40%;
+    height: 10%;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  .sound-picker {
+    justify-items: center;
+  }
+  .sound-picker button {
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    border-radius: 50%;
+  }
 }
