@@ -1,7 +1,8 @@
 # Sound Meditation Timer
 
-This is a sound meditation app.
-User can meditate with relaxing sound of rain falling or soothing sound of the waves crashing on the shore.
+This is a meditation/anbient sound app. <br/>
+Allow users to pick the time and also different anbient sound to meditate on.
+
 
 ## Screenshot
 
@@ -20,4 +21,4 @@ User can meditate with relaxing sound of rain falling or soothing sound of the w
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Javascript
+-  vanilla JavaScript
