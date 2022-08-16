@@ -1,7 +1,9 @@
 # Sound Meditation Timer
 
-This is a meditation/anbient sound app. <br/>
-Allow users to pick the time and also different anbient sound to meditate on.
+This is a meditation timer app.<br/>
+Allow users to pick the time and also different ambient sounds to meditate on. <br/>
+It is built with pure vanilla Javascript.
+
 
 
 ## Screenshot
